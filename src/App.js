@@ -9,6 +9,14 @@ class App extends Component {
     return (
       <div>
         <Navbar/>
+        <h1> Hi, I'm <a href="/">Sarah Okamoto</a></h1>
+        <h2>I 
+          <a href="https://github.com/sarahoka"> develop</a>, 
+          <a href="/"> design</a>, and 
+          <a href="http://robotics.usc.edu/interaction/people/#"> research</a>.
+        </h2>
+        <h3>I'm a computer science undergraduate at the 
+          <a href="https://www.cs.usc.edu/academic-programs/undergrad/">University of Southern California</a>, passionate about helping others through technology.</h3>
       </div>
     );
   }
